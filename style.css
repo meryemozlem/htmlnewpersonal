@@ -1,0 +1,214 @@
+/* AÇIKLAMA: CSS Dosyası için  */
+
+/* Boşlukları Sıfırla*/
+*{
+    margin:0px;
+    padding:0px;
+}
+
+/* min-height :aaurto;*/
+#page{
+    width:900px;
+    min-height:608px;
+    border-style:solid;
+    border-width:1px;
+    margin:auto;
+}
+
+/*Banner*/
+#banner{
+    width:900px;
+    height:100px;
+    border-style:solid;
+    border-width:1px;
+    margin:auto;
+    background-color:whitesmoke;;
+}
+
+/*Kurt*/
+#logo{
+    width:80px;
+    height:80px;
+    border-style:dashed;
+    border-width:1px;
+    background-color:whitesmoke;
+    position:relative;
+    top:10px;
+    left:15px;
+    float:left;
+}
+
+#vesika{
+width:80px;
+height:81px;
+}
+
+/*Sosyal medya ikonları arka thema*/
+#social{
+    width:212px;
+    height:50px;
+    border-style:solid;
+    border-width:1px;
+    background-color:whitesmoke;
+    float:right;
+    position:relative;
+    top:23px;
+    right:11px;
+    box-shadow:10px 10px 15px grey;
+}
+
+#social{
+    float:right;
+    margin-left:10px;
+}
+
+#design{
+    width:50px;
+    height:50px;
+}
+
+/*Anamenü*/
+
+#mainmenu{
+    width:900px;
+    height:50px;
+    border-style:solid;
+    border-width:1px;
+    margin:auto;
+    background-color:deepskyblue;
+}
+
+#mainmenu ul {
+    list-style-type:none;
+}
+
+#mainmenu ul li{
+    width:84px;
+    border-style:solid;
+    border-width:px;
+    border-radius:14px;
+    background-color:lightcyan;
+    border-color:lightseagreen;
+    float:left;
+    padding:2px;
+    margin-left:3px;
+    position:relative;
+    top:10px;
+    text-align:center;
+}
+
+#mainbmenu ul a{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration:none;
+    font-weight:bolder;
+    font-size:14px;
+}
+
+#mainmenu ul a:link{
+    color:blue;
+}
+
+#mainmenu ul a:visited{
+    color:grey;
+}
+
+#mainmenu ul a:hover{
+    color:red;
+    text-decoration:underline;
+}
+
+#mainmenu ul a:active{
+    color:rosybrown;
+}
+
+/*İçerik ve Yan menü komutları*/
+
+#contents{
+    width:600px;
+    min-height:400px;
+    border-style:solid;
+    border-width:1px;
+    background-color:whitesmoke;
+    float:left;
+}
+
+#sidemenu{
+    width:296px;
+    min-height:400px;
+    border-style:solid;
+    border-width:1px;
+    background-color:cornflowerblue;
+    float:right;
+}
+
+.picture{
+    float:left;
+    width:100px;
+    margin:8px;
+}
+.text{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:15px;
+    color:black;
+}
+
+.titlex{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight:bolder;
+    font-size:22px;
+    color:red;
+}
+
+/*Altmenü*/
+#submenu{
+    width:900px;
+    height:50px;
+    border-style:double;
+    border-width:1px;
+    background-color:cornflowerblue;
+    float:left;
+    text-align:center;
+    color:black;
+}
+
+#submenu a{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:13px;
+    font-weight:bolder;
+    color:black;
+    text-decoration:none;
+}
+
+#submenu a:hover{
+    color:green;
+    text-decoration:underline;
+}
+
+.littletext{
+    font-size:14px;
+}
+
+/*/#kutu3{
+    
+    border-style:solid;
+    border-color:red;
+    border-width:10px;
+    width:150px;
+    height:50px;
+    float:left;
+    margin:17px;
+    background-color:yellow;
+}
+*/
+.formelement{ 
+    color:black;
+    font-size:14px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color:whitesmoke;
+    border-color:cornflowerblue;
+    border-width:6px;
+    margin:7px;
+    padding:8px;
+    border-style:double;
+    box-shadow:10px 10px 15px grey;
+}
